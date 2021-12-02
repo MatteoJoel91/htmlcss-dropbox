@@ -25,28 +25,43 @@
 }
 .sezione-business{
     background-color: lightgrey;
-    height: 1000px;
+    height: 100%;
 }
 
 .sezione-business h2{
-    text-align: left;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .paragrafo-sinistra{
-    position: absolute;
-    left: 19%;
-    width: calc(33% - 100px);
+    float: left;   
+    width: 30%;
     border: 1px solid black;
     background-color: yellow;
-    padding: 5px;
     height: 700px;
 }
-/* .paragrafo-centro{
-    position: relative;
-    left: 40%;
-    width: calc(33% - 60px);
+.paragrafo-centro{
+    float: left;
+    width: 30%;
     border: 1px solid black;
-    background-color: tomato;
+    background-color: yellow;
+    margin: 0 5%;
     height: 700px;
-} */
+}
+.paragrafo-destra{
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    background-color: yellow;
+    height: 700px;
+}
+.sezione-business::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.paragrafo-bot{
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-top: 100px;
+}
