@@ -3,35 +3,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: ;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 .contenitore{
     width: 70%;
     margin: 0 auto;
     max-width: 1180px;
 }
+.btn{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+/* inizio header */
 #barra-logo{
     position: fixed;
     height: 100px;
-    background-color: lightcyan;
     width: 100%;
     z-index: 500;
+    line-height: 100px;
+    padding-left: 30px;
+    background-color: white;
+}
+#logo{
+    float: left;
+    width: 10%;
+}
+#logo img{
+    vertical-align: middle;
+}
+.menu-sinistra{
+    float: left;
+    text-align: center;
+}
+.menu-sinistra ul li{
+    display: inline-block;
+}
+.menu-destra{
+    float: right;
+    text-align: center;
+}
+.menu-destra ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
 }
 
+#login{
+    float: right;
+    width: 5%;
+    text-align: right;
+    margin-right: 50px;
+}
+#login .btn{
+    display: inline;
+    font-size: 15px;
+}
+/* fine header */
 
-/* sezione jumbotron */
+
+/* inizio sezione jumbotron */
 .contenuto-jumbo{
     height: 600px;
     background-color: tomato;
     width: 100%;
 }
+/* fine sezione jumbotron */
+
+
+/* sezione business */
 .sezione-business{
     background-color: lightgrey;
     height: 100%;
 }
-
-
-/* sezione business */
 .sezione-business h2{
     padding-top: 100px;
     padding-bottom: 100px;
