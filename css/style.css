@@ -8,7 +8,6 @@
 .contenitore{
     width: 70%;
     margin: 0 auto;
-    height: 100%;
     max-width: 1180px;
 }
 #barra-logo{
@@ -118,8 +117,6 @@
 
 
 .partner{
-    width: auto
-    height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -134,26 +131,85 @@
     height: 30vw;
     width: 30vw;
     background-color: yellow;
-    border: solid 1px black;
+
 }
 .quadrato-centro{
     float: left;
     height: 30vw;
     width: calc(100% - 60vw);
     background-color: lightgrey;
-    border: solid 1px black;
+
 }
 .quadrato-destra{
     float: left;
     height: 30vw;
     width: 30vw;
     background-color: yellow;
-    border: solid 1px black;
+
 }
 .oggetto{
     float: left;
     height: 15vw;
-    width: 14vw;
+    width: 15vw;
     background-color: cornsilk;
     border: solid 5px red;
+}
+.box-prova-gratuita{
+    float: left;
+    height: 25vw;
+    width: 100%;
+    background-color: sandybrown;
+}
+.domande{
+    height: 600px;
+    width: 100%;
+    background-color: seashell;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    background-color: teal;
+    width: 100%;
+    padding-top: 50px;
+    min-height: 450px;
+}
+.contenitore-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.contenitore-footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.informazioni{
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+}
+.distanza{
+    width: 15%;
+}
+.titolo{
+   font-size: 25px;
+   line-height: 60px;
+}
+.hr{
+    margin-top: 100px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
 }
