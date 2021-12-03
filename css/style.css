@@ -13,6 +13,7 @@ html{
     margin: 0 auto;
     max-width: 1180px;
 }
+
 .btn{
     background-color: #0061ff;
     color: white;
@@ -30,6 +31,11 @@ html{
     line-height: 100px;
     padding-left: 30px;
     background-color: white;
+}
+.barra-log::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 #logo{
     float: left;
@@ -57,7 +63,6 @@ ul li a{
     padding: 20px;
     color: black;
 }
-
 #login{
     float: right;
     width: 5%;
@@ -72,10 +77,33 @@ ul li a{
 
 
 /* inizio sezione jumbotron */
-.contenuto-jumbo{
-    height: 600px;
-    background-color: tomato;
-    width: 100%;
+#jumbotron{
+    height: 800px;
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
+.contenitore-jumbo{
+    width: 80vw;
+    max-width: 1180px;
+    min-width: 780px;
+    margin: auto;
+}
+.testo-jumbo{
+    font-size: 45px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.testo-jumbo2{
+    float: left;
+    width: 25%;
+}
+.btn-prova-gratuita{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-jumbo{
+    width: 75%;
+    float: left;
 }
 /* fine sezione jumbotron */
 
