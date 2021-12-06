@@ -21,6 +21,9 @@ html{
     padding: 8px 16px;
     display: inline-block;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 /* inizio header */
 #barra-logo{
@@ -29,49 +32,49 @@ html{
     z-index: 500;
     top: 0;
     left: 0;
-    min-height: 70px;
+    max-height: 70px;
     padding-left: 30px;
     background-color: white;
-    vertical-align: middle;
 }
-.barra-log::after{
+.barra-logo::after{
     content: "";
     display: table;
     clear: both;
 }
-.logo{
+nav img {
     vertical-align: middle;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 70px;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    background-color: #f5f5f5;
+    border-bottom: solid 2px #0061ff;
+}
+nav ul .logo a:hover {
+    background-color: transparent;
+    border: none;
 }
 .menu-sinistra{
     float: left;
     text-align: center;
 }
-.menu-sinistra ul li{
-    display: inline-block;
-}
 .menu-destra{
     float: right;
     text-align: center;
+    margin-right: 20px;
 }
-.menu-destra ul li{
-    display: inline-block;
-}
-ul li a{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-}
-#login{
-    float: right;
-    width: 5%;
-    text-align: right;
-    margin-right: 50px;
-}
-#login .btn{
-    display: inline;
-    font-size: 15px;
-}
-/* fine header */
+
+
+
 
 
 /* inizio sezione jumbotron */
@@ -457,6 +460,7 @@ ul li a{
 .contenitore-prova-gratuita{
     width: 100%;
     background-color: #b4d0e7;
+    margin-bottom: 50px;
 }
 .box-prova-gratuita{
     width: 80%;
@@ -469,16 +473,22 @@ ul li a{
     float: left;
     width: 70%;
     font-size: 40px;
+    color: #61082b;
 }
 .azienda-destra{
     float: left;
     width: 30%;
     text-decoration: none;
-
     background-color: white;
     color: black;
     text-align: center;
     display: block;
+}
+.box-prova-gratuita .btn-prova-gratuita{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 50px;
 }
 /* fine box prova gratuita */
 
@@ -486,17 +496,41 @@ ul li a{
 
 /* inizio sezione domande */
 .domande{
-    height: 600px;
+    min-height: 450px;
     width: 100%;
-    background-color: seashell;
     margin-bottom: 50px;
+}
+.titolo-domande{
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.testo-domande{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.freccia-menu{
+    float: right;
+    padding-right: 30px;
+}
+.freccia-menu:hover{
+    cursor: pointer;
+}
+.risposta{
+    display: none;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.freccia-menu:hover + .risposta{
+    display: block;
 }
 /* fine sezione domande */
 
 
 /* inizio del footer */
 footer{
-    background-color: teal;
+    background-color: #000000;
     width: 100%;
     padding-top: 50px;
     min-height: 450px;
