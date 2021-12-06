@@ -112,6 +112,11 @@ ul li a{
     display: table;
     clear: both;
 }
+.freccia-giu{
+    margin-top: 30px;
+    font-size: 40px;
+    color: black;
+}
 /* fine sezione jumbotron */
 
 
@@ -257,22 +262,62 @@ ul li a{
     margin-top: 50px;
     width: 100%;
     height: 500px;
-    background-color: tomato;
+}
+.partner-sinistra{
+    float: left;
+    width: 50%;
+}
+
+.partner-destra{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.contenitore-partner{
+    width: 80vw;
+    max-width: 1180px;
+    min-width: 780px;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 500px;
+}
+.partner-destra h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.partner-destra h4{
+    padding-bottom: 40px;
+    font-weight:normal;
+    line-height: 25px;
+}
+.btn-bianco{
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid 1px black;
+    color: black;
 }
 /* fine sezione partner-box */
 
 
 /* inizio box operazioni */
 .operazioni{
-    margin-top: 50px;
-    background-color: tomato;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    min-height: 1000px;
+}
+.testo-operazioni{
+    font-size: 40px;
+    font-weight: bold;
 }
 .riga{
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.riga h2{
+    padding-bottom: 20px;
 }
 .riga::after{
     content: "";
@@ -281,25 +326,23 @@ ul li a{
 }
 .box-left{
     float: left;
-    height: 250px;
+    min-height: 500px;
     width: 30%;
-    border: 1px solid black;
-    background-color: yellow;
 }
+
 .box-central{
     float: left;
     width: 30%;
-    height: 250px;
-    border: 1px solid black;
-    background-color: yellow;
+    min-height: 500px;
     margin: 0 5%;
 }
 .box-right{
     float: left;
-    height: 250px;
+    min-height: 500px;
     width: 30%;
-    border: 1px solid black;
-    background-color: yellow;
+}
+.img-size{
+    width: 100%;
 }
 /* fine sezione box operazioni */
 
@@ -308,6 +351,10 @@ ul li a{
 .partner{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.testo-500{
+    font-size: 40px;
+    font-weight: bold;
 }
 .partner::after{
     content: "";
@@ -326,7 +373,7 @@ ul li a{
     float: left;
     height: 30vw;
     width: calc(100% - 60vw);
-    background-color: lightgrey;
+    background-color: #f5f5f5;
 
 }
 .quadrato-destra{
@@ -340,8 +387,67 @@ ul li a{
     float: left;
     height: 15vw;
     width: 15vw;
-    background-color: cornsilk;
-    border: solid 5px red;
+    line-height: 15vw;
+    text-align: center;
+}
+.oggetto-2{
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    line-height: 20vw;
+    text-align: center;
+}
+.oggetto-7{
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    line-height: 18vw;
+    text-align: center;
+}
+.img-svg{
+    width: 50%;
+    filter: invert(99%) sepia(10%) saturate(158%) hue-rotate(243deg) brightness(114%) contrast(100%);
+}
+.color-1{
+    background-color: #a2d39b;
+    border: solid 12px #d0e9cd;
+}
+.color-2{
+    background-color: #61082b;
+}
+.color-3{
+    background-color: #0093ce;
+}
+.color-4{
+    background-color: #ff1c1c;
+}
+.color-5{
+    background-color: #d5001f;
+}
+.color-6{
+    background-color: #b4d0e7;
+}
+.color-7{
+    background-color: #0d2481;
+}
+.color-8{
+    background-color: #ffd830;
+}
+.contenitore-design{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.img-design{
+    width: 25%;   
+}
+.linea-2{
+    width: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.citazione{
+    margin-top: 40px;
 }
 .box-prova-gratuita{
     float: left;
