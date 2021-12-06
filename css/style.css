@@ -117,47 +117,137 @@ ul li a{
 
 /* sezione business */
 .sezione-business{
-    background-color: lightgrey;
     height: 100%;
 }
+
 .sezione-business h2{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.testo-fatturazione{
+    padding-bottom: 40px;
+    padding-right: 30px;   
+}
+.pallino-blu{
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #0061ff; 
+}
+.pallino-bianco{
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: grey;
+    margin-left: 10px;
+}
+
+/* regole delle 3 tab business */
+.cont-business{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
 .paragrafo-sinistra{
     float: left;   
     width: 30%;
-    border: 1px solid black;
-    background-color: yellow;
-    height: 700px;
+    border: 1px solid darkgray;
+    background-color:;
+    min-height: 800px;
 }
 .paragrafo-centro{
     float: left;
     width: 30%;
-    border: 1px solid black;
-    background-color: yellow;
+    border: 1px solid darkgray;
     margin: 0 5%;
-    height: 700px;
+    min-height: 800px;
 }
 .paragrafo-destra{
     float: left;
     width: 30%;
-    border: 1px solid black;
-    background-color: yellow;
-    height: 700px;
+    border: 1px solid darkgray;
+    min-height: 800px;
 }
+.titolo-tab{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgray;
+    font-weight: normal;
+}
+.cont-business h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cont-business h4{
+    padding-bottom: 15px;
+}
+#mese{
+    padding-bottom: 50px;
+    color: darkgray;
+}
+.cont-business h5{
+    padding-bottom: 20px;
+    font-weight:normal;
+}
+.btn-prova{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.cont-business h5 a{
+    color: #0061ff;
+}
+.linea{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.spunta::before{
+    color: #0061ff;
+}
+
 .sezione-business::after{
     content: "";
     display: table;
     clear: both;
 }
+
+/* regole paragrafo bot */
 .paragrafo-bot{
     width: 100%;
-    height: 150px;
+    min-height: 150px;
     margin-top: 50px;
-    background-color: yellow;
-    border: 1px solid black;
+    background-color: ;
+    border: 1px solid darkgray;
     float: left;
+}
+.cont-business2{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+.cont-business2 h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cont-business2 h4{
+    padding-bottom: 15px;
+}
+.cont-business2 h5{
+    padding-bottom: 20px;
+    font-weight:normal;
+}
+.btn-prova2{
+    float: right;
+    font-size: 14px;
+    margin-top: 20px;
 }
 /* fine sezione business */
 
