@@ -72,7 +72,7 @@ nav ul .logo a:hover {
     text-align: center;
     margin-right: 20px;
 }
-
+/* fine header */
 
 
 
@@ -124,6 +124,8 @@ nav ul .logo a:hover {
 /* fine sezione jumbotron */
 
 
+
+/* inizio del main */
 /* sezione business */
 .sezione-business{
     height: 100%;
@@ -157,6 +159,7 @@ nav ul .logo a:hover {
     border-color: grey;
     margin-left: 10px;
 }
+
 
 /* regole delle 3 tab business */
 .cont-business{
@@ -227,6 +230,8 @@ nav ul .logo a:hover {
     display: table;
     clear: both;
 }
+/* fine regole 3 tab business */
+
 
 /* regole paragrafo bot */
 .paragrafo-bot{
@@ -261,6 +266,7 @@ nav ul .logo a:hover {
 /* fine sezione business */
 
 
+
 /* sezione partner-box */
 .partner-box{
     margin-top: 50px;
@@ -271,7 +277,6 @@ nav ul .logo a:hover {
     float: left;
     width: 50%;
 }
-
 .partner-destra{
     float: left;
     width: 45%;
@@ -304,6 +309,7 @@ nav ul .logo a:hover {
 /* fine sezione partner-box */
 
 
+
 /* inizio box operazioni */
 .operazioni{
     margin-top: 150px;
@@ -333,7 +339,6 @@ nav ul .logo a:hover {
     min-height: 500px;
     width: 30%;
 }
-
 .box-central{
     float: left;
     width: 30%;
@@ -351,7 +356,7 @@ nav ul .logo a:hover {
 /* fine sezione box operazioni */
 
 
-/* inizio sezione partner con class"quadrato" */
+/* inizio sezione degli 8 partner nei relativi box */
 .partner{
     margin-top: 50px;
 }
@@ -364,13 +369,11 @@ nav ul .logo a:hover {
     display: table;
     clear: both;
 }
-
 .quadrato-sinistra{
     float: left;
     height: 30vw;
     width: 30vw;
     background-color: yellow;
-
 }
 .quadrato-centro{
     float: left;
@@ -384,7 +387,6 @@ nav ul .logo a:hover {
     height: 30vw;
     width: 30vw;
     background-color: yellow;
-
 }
 .oggetto{
     float: left;
@@ -452,8 +454,8 @@ nav ul .logo a:hover {
 .citazione{
     margin-top: 40px;
 }
+/* fine sezione degli 8 partner nei relativi box */
 
-/* fine sezione partner con class"quadrato" */
 
 
 /* inizio box prova gratuita */
@@ -526,6 +528,8 @@ nav ul .logo a:hover {
     display: block;
 }
 /* fine sezione domande */
+/* fine del main */
+
 
 
 /* inizio del footer */
@@ -533,7 +537,13 @@ footer{
     background-color: #000000;
     width: 100%;
     padding-top: 50px;
-    min-height: 450px;
+    min-height: 500px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .titolo:hover{
+    text-decoration: none;
 }
 .contenitore-footer{
     width: 80%;
@@ -544,14 +554,12 @@ footer{
     display: table;
     clear: both;
 }
-
 footer li{
     list-style: none;
     padding-bottom: 10px;
     padding-right: 30px;
     text-align: left;
 }
-
 footer ul li a{
     color: white;
     text-decoration: none;
@@ -573,5 +581,13 @@ footer ul li a{
     width: 100px;
     height: 50px;
     margin-left: 10%;
+}
+footer .lingua{
+    font-size: 12px;
+    color: #d3d3d6; 
+}
+.freccia-ita{
+    padding-top: 10px;
+    padding-left: 5px;
 }
 /* fine del footer */
