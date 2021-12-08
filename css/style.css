@@ -7,6 +7,7 @@
 html{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+    scroll-behavior: smooth;
 }
 .contenitore{
     width: 70%;
@@ -21,9 +22,10 @@ html{
     padding: 8px 16px;
     display: inline-block;
 }
-html {
-    scroll-behavior: smooth;
-  }
+.btn:hover{
+    background-color: blue;
+}
+
 
 /* inizio header */
 #barra-logo{
@@ -120,6 +122,9 @@ nav ul .logo a:hover {
     margin-top: 30px;
     font-size: 40px;
     color: black;
+}
+.freccia-giu:hover{
+    color: #0061ff;
 }
 /* fine sezione jumbotron */
 
@@ -263,6 +268,9 @@ nav ul .logo a:hover {
     font-size: 14px;
     margin-top: 20px;
 }
+.btn-prova2:hover{
+    background-color: blue;
+}
 /* fine sezione business */
 
 
@@ -305,6 +313,9 @@ nav ul .logo a:hover {
     padding: 8px 16px;
     border: solid 1px black;
     color: black;
+}
+.btn-bianco:hover{
+    background-color: lightgray;
 }
 /* fine sezione partner-box */
 
@@ -491,6 +502,9 @@ nav ul .logo a:hover {
     color: black;
     text-decoration: none;
     padding: 8px 50px;
+}
+.box-prova-gratuita .btn-prova-gratuita:hover{
+    background-color: lightgray;
 }
 /* fine box prova gratuita */
 
