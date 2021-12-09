@@ -78,32 +78,30 @@ nav ul .logo:hover {
     text-align: center;
     margin-right: 20px;
 }
-.menu-destra ul ul{
+.sub-menu{
+    position: relative;
+    display: inline-block;
+}
+.sub-menu li{
+    line-height: 68px;
+    height: 70px;
+}
+.sub-menu-contenuto{
     display: none;
     position: absolute;
+    background-color:white;
     top: 100%;
-    left: 69%;
+    min-width: 250px;
     text-align: left;
 }
-.menu-destra ul li:hover ul{
-    display: block;
-}
-.menu-destra ul li:hover{
-    background-color: #f5f5f5;
-    cursor: pointer;
-}
-.menu-destra ul li li{
-    position: relative;
-    float: none;
-    background-color: white;
+.sub-menu-contenuto li {
     width: 100%;
-    height: 70px;
-    line-height: 68px;
 }
-
-.menu-destra ul li a{
-    display: inline;
-    
+.sub-menu-contenuto a:hover{
+    background-color: #f5f5f5;
+}
+.sub-menu:hover .sub-menu-contenuto {
+    display: block;
 }
 /* fine header */
 
